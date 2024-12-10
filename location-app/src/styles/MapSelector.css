@@ -1,0 +1,70 @@
+/* MapSelector.css */
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.map-placeholder {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-box-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #888;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading-indicator {
+  font-size: 18px;
+  color: #333;
+}
+
+.address-form {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.address-form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #555;
+}
+
+.address-form input::placeholder {
+  color: #aaa;
+}
